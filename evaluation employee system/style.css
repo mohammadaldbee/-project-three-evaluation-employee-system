@@ -1,0 +1,115 @@
+body{
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(20, 86, 157),#231143);
+}
+#navbar-list {
+    margin-left: 23%;
+}
+
+#navbar-list li {
+    padding-left: 50px;
+}
+button .nav-link {
+    color: white;
+}
+#active{
+    color: rgb(20, 86, 157);
+}
+.nav-item a{
+    color: white !important;
+}
+
+.reg{
+   
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+small{
+    font-weight: 100;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    width: 80%;
+    margin: auto;   
+}
+.form-control{
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+
+#btn{
+    background-image: linear-gradient(to left, rgb(20, 86, 157),#231143);
+    color: white;
+   
+}
+#btn:hover{
+    
+    background-image: linear-gradient(to right, rgb(20, 86, 157),#231143);
+    color:white;
+}
+#log>a{
+    text-decoration: none;
+}
+
+#log a:hover{
+    color:white !important;
+    text-decoration: none;
+    
+}
+
+span{
+    color: #231143;
+}
+.error{
+    color:red;
+}
+
+.eye{
+    width: 100%;
+ position: relative;
+ 
+}
+.bi{
+
+ display: flex;
+ align-items: center;
+ position: absolute;
+ height: 100%;
+ top: 0;
+ right: 0;
+ padding-right: 1px;
+ margin-right: 2%;
+}
+/*sign in*/
+#sign{
+    text-align: left;
+}
+a{
+    color: black;
+    margin: 10px;
+}
+
+
+
+@media (max-width:900px) {
+    #navbar-list li {
+      margin-right: 50%;
+    }
+    .image{
+        display:none;
+    }
+    form{
+        width: 80%;
+        margin: auto;
+    }
+    
+}

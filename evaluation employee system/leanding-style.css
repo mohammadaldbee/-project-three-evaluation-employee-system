@@ -1,0 +1,36 @@
+#navbar-list {
+    margin-left: 25%;
+}
+#navbar-list li {
+    padding-left: 50px;
+}
+.welcomeText2{
+            background-image: url(https://media.istockphoto.com/videos/abstract-high-tech-background-texture-video-id925324512?s=640x640);
+            color: white;
+            background-repeat: no-repeat;
+            background-size: 100%
+        }
+        .welcomeText{
+            background-image: url(https://aws.wideinfo.org/rydi.org/wp-content/uploads/2019/07/07194548/shutterstock_1583248045-1024x576.jpg);
+            color: white;
+            background-repeat: no-repeat;
+            background-size: 100%
+    }
+.TextWelcomePage{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.nav-item a{
+    color: white !important;
+}
+#active{
+    color: rgb(20, 86, 157)!important;
+}
+@media (max-width: 912px) {
+    .welcomeText{
+        background-size:912px 1368px ; 
+    }
+    .welcomeText2{
+        background-size:912px 1368px ; 
+    }
+}

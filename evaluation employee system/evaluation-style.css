@@ -1,0 +1,133 @@
+
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, rgb(20, 86, 157),#231143);
+
+}
+#start{
+  margin-top: 20px;
+}
+span{
+  color:white;
+}
+#logOutBtn a{
+  text-decoration: none;
+  color:white;
+}
+footer{
+  padding-top: 10px;
+  margin-bottom: 0%;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  background-color: #252525;
+  margin-top: 20%;
+  color:white;
+}
+.list{
+ font-size : large ;
+color: white;
+  padding: 2% 4%;
+  border-radius: 15px;
+background-image: linear-gradient(to right, rgb(20, 86, 157),#231143);
+background-color: rgb(20, 86, 157);
+font-weight: bolder;
+border-color: rgb(255, 255, 255);
+border-width: thin;
+}
+input{
+  display: inline;
+
+}
+button{
+  font-size : xx-large ;
+  background-color: rgb(20, 86, 157);
+  color: white;
+  padding: 10px 50px;
+border-radius: 80px;
+margin-top:20px;
+}
+
+
+.topPart{
+  width: 80%;
+margin: auto;
+text-align: center;
+
+}
+.buttonPart{
+  margin-top: 20px;
+  text-align: center;
+  padding: auto;
+}
+
+
+.survey {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  display: none;
+
+}
+
+.standards{
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+}
+
+
+.tools {
+  height: 250px;
+  border: 4px solid #231143;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.tools:hover {
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 white;
+}
+p{
+  font-weight: bolder;
+}
+
+h1{
+  color:white;
+}
+#next{
+  color: white;
+  text-decoration: none;
+}
+#active{
+  color: rgb(20, 86, 157)!important;
+}
+
+/* media*/
+
+
+
+@media screen and (max-width:800px) {
+
+
+  .standards {
+    grid-template-columns: auto auto;
+
+  }
+
+
+}
+
+@media (max-width:600px) {
+
+  .standards {
+    grid-template-columns: auto;
+
+  }
+ 
+}

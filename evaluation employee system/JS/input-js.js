@@ -41,12 +41,20 @@ function addtoAli(preson,question,status){
     let aliData = JSON.parse(localStorage.getItem('ali')) || [];
     aliData.push(obj);
     localStorage.setItem('ali', JSON.stringify(aliData));
+   
 }
+document.getElementById("form").addEventListener("submit", printAlert);
+function printAlert() {
+   
+   alert("submit successfully")
+  }
+    
 
 function submitData(event){
+ 
    
         var ele = document.getElementsByTagName('input');
-          
+   
         for(i = 0; i < ele.length; i++) {
             if(ele[i].checked){
             if(ele[i].type=="radio") {

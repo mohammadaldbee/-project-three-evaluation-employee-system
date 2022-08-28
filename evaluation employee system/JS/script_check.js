@@ -72,16 +72,17 @@ function validationForm(event){
 
 
      if(mailbool==true&&namebool==true&&passbool==true){
+   
+      window.sessionStorage.setItem("nameValue",personName.value);
+      window.open("evaluation.html","_self");
       let formData = JSON.parse(localStorage.getItem('formData')) || [];
       formData.push({ mailValue, nameValue, passValue});
       localStorage.setItem('formData', JSON.stringify(formData));
-      email.value=""
-      password.value = ""
-      personName.value =""
-      document.getElementById("registeredMsg").textContent = "Registerd Successfully"
-      document.getElementById("registeredMsg").style.color = "green"
+     
+    
+      
      }
-
+    
 
 }
 

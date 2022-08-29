@@ -129,5 +129,8 @@ h1{
     grid-template-columns: auto;
 
   }
+  .footer{
+display: none;
+  }
  
 }

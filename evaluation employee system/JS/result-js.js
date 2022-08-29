@@ -1,3 +1,7 @@
+if (window.sessionStorage.getItem("nameValue")!== null){
+  console.log("yes")
+}else{
+window.open("sign_in.html","_self")}
 document.getElementById("list").onchange = function () {
   getinfo();
 };
